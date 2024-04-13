@@ -1,0 +1,47 @@
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar>
+    <!-- <ion-title>loginscreen</ion-title> -->
+  </ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="login" text=""></ion-back-button>
+  </ion-buttons>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card class="ion-no-padding">
+    <ion-img src="../../assets/images/DancellAsset.png"></ion-img>
+
+    <ion-card-content>
+      <div class="wrapform">
+        <ion-item>
+          <ion-icon name="person-outline"></ion-icon>
+          <ion-input type="text" name="user" placeholder="Usuario" required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="lock-closed-outline"></ion-icon>
+          <ion-input type="password" name="password" placeholder="************" required></ion-input>
+        </ion-item>
+      </div>
+      <div class="password_forgot">
+        <ion-button fill="clear" class="ion-no-padding">Has olvidado tu contraseña</ion-button>
+      </div>
+      <div class="sign-btn-wrap">
+        <ion-button shape="round" fill="solid" class="sign-btn">Iniciar Sesion</ion-button>
+      </div>
+      <div class="text-tag">
+        <span>O a través de las redes sociales</span>
+      </div>
+      <div class="social-btns">
+        <ion-button fill="clear" class="facebookbtn ion-no-padding">
+          <ion-img src="../../assets/images/facebook.png"></ion-img>
+        </ion-button>
+        <ion-button fill="clear" class="googlebtn ion-no-padding">
+          <ion-img src="../../assets/images/google.png"></ion-img>
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <div class="ion-card-footer">
+    <span>¿No tienes una cuenta?</span><button class="ion-no-padding">Registrate</button>
+  </div>
+</ion-content>

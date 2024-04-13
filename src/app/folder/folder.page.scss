@@ -26,3 +26,19 @@ ion-menu-button {
 #container a {
   text-decoration: none;
 }
+
+.btn{
+  background-color: var(--ion-color-dancell);
+  color: white;
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
